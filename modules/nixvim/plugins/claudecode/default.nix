@@ -8,7 +8,7 @@
   # TODO: Consider upstreaming this module to nixvim
   options.plugins.claudecode = {
     enable = lib.mkEnableOption "claudecode" // {
-      default = true;
+      default = false;
     };
 
     package = lib.mkPackageOption pkgs.vimPlugins "claudecode" {

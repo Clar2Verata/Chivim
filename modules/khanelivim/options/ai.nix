@@ -8,12 +8,12 @@
           "windsurf"
         ]
       );
-      default = "copilot";
+      default = null;
       description = "AI completion provider to use";
     };
 
     chatEnable = lib.mkEnableOption "AI chat functionality" // {
-      default = true;
+      default = false;
     };
   };
 }

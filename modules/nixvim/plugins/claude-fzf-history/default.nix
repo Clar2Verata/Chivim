@@ -8,7 +8,7 @@
   # TODO: Consider upstreaming this module to nixvim
   options.plugins.claude-fzf-history = {
     enable = lib.mkEnableOption "claude-fzf-history" // {
-      default = true;
+      default = false; 
     };
 
     package = lib.mkPackageOption pkgs.vimPlugins "claude-fzf-history" {

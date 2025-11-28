@@ -14,7 +14,7 @@
 
   plugins = {
     copilot-lua = {
-      enable = config.khanelivim.ai.provider == "copilot";
+      enable = false; #config.khanelivim.ai.provider == "copilot"
 
       lazyLoad.settings.event = [ "InsertEnter" ];
 

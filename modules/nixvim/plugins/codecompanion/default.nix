@@ -6,7 +6,7 @@
 {
   plugins = {
     codecompanion = {
-      enable = true;
+      enable = false;
 
       lazyLoad.settings = {
         cmd = [
