@@ -69,7 +69,7 @@
     };
 
     copilot-chat = {
-      enable = config.khanelivim.ai.provider == "copilot" && config.khanelivim.ai.chatEnable;
+      enable = false;
 
       lazyLoad.settings.cmd = [
         "CopilotChat"
