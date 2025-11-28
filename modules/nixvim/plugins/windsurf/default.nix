@@ -22,14 +22,5 @@
     };
   };
 
-  keymaps = lib.mkIf (config.khanelivim.ai.provider == "windsurf") [
-    {
-      mode = "n";
-      key = "<leader>aC";
-      action = "<cmd>Codeium Chat<CR>";
-      options = {
-        desc = "Codeium Chat";
-      };
-    }
-  ];
+
 }
