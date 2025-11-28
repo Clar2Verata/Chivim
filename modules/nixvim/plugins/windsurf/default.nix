@@ -7,7 +7,7 @@
 {
   plugins = {
     windsurf-nvim = {
-      enable = config.khanelivim.ai.provider == "windsurf";
+      enable = false;
 
       settings = {
         enable_chat = true;
